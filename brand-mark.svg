@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="2M Production amblemi">
+<defs>
+  <linearGradient id="mark" x1="18" y1="18" x2="110" y2="110" gradientUnits="userSpaceOnUse"><stop stop-color="#ff3b5f"/><stop offset=".52" stop-color="#e51d69"/><stop offset="1" stop-color="#9c4aff"/></linearGradient>
+  <linearGradient id="ring" x1="12" y1="10" x2="116" y2="118" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4d68"/><stop offset="1" stop-color="#8c35d9"/></linearGradient>
+</defs>
+<rect x="4" y="4" width="120" height="120" rx="31" fill="#0d0912" stroke="url(#ring)" stroke-width="2"/>
+<path d="M23 23h82" stroke="url(#ring)" stroke-width="1" opacity=".35"/>
+<text x="64" y="78" text-anchor="middle" fill="url(#mark)" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="900" letter-spacing="-5">2M</text>
+<path d="M27 90h74" stroke="url(#ring)" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
+<text x="64" y="106" text-anchor="middle" fill="#d9d1df" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="700" letter-spacing="2.4">PRODUCTION</text>
+</svg>
