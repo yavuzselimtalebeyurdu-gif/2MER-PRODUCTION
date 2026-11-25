@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://yavuzselimtalebeyurdu-gif.github.io/timberogullari/sitemap.xml
