@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="tr">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1"><meta name="theme-color" content="#09070d">
+  <meta name="description" content="2mer Production ile iletişime geç."><title>İletişim — 2mer Production</title>
+  <link rel="icon" type="image/svg+xml" href="assets/favicon.svg"><link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet"><link rel="stylesheet" href="style.css">
+</head>
+<body class="inner-page"><div class="ambient ambient-red"></div><div class="ambient ambient-purple"></div>
+<header class="site-header"><a class="brand" href="index.html"><img src="assets/brand-mark.svg" alt="2mer Production"><span class="brand-word">2MER <b>PRODUCTION</b></span></a><button class="menu-toggle" aria-label="Menüyü aç" aria-expanded="false"><span></span><span></span></button><nav class="main-nav"><a href="index.html">Ana Sayfa</a><a href="index.html#beats">Beat'ler</a><a class="active" href="iletisim.html">İletişim</a><a href="kayit.html">Kayıt Ol</a><a class="nav-login" href="giris.html">Giriş Yap <span>↗</span></a></nav></header>
+<main class="auth-shell wrap contact-shell">
+  <div class="inner-heading reveal"><span class="section-kicker">LET'S CREATE SOMETHING</span><h1>Bir fikrin mi <em>var?</em></h1><p>Beat, prodüksiyon, proje veya iş birliği… Mesajını bırak, konuşalım.</p></div>
+  <div class="contact-layout">
+    <aside class="contact-aside reveal"><div class="contact-emblem"><img src="assets/brand-mark.svg" alt="2mer Production demo logosu"></div><span class="section-kicker">2MER PRODUCTION</span><h2>Doğru ses,<br><em>doğru insanlarla.</em></h2><p>İletişim formunu kullanabilir veya sosyal medya hesaplarımdan ulaşabilirsin.</p>
+      <div class="contact-socials"><a href="https://instagram.com/" target="_blank" rel="noopener" aria-label="Instagram">IG</a><a href="https://youtube.com/" target="_blank" rel="noopener" aria-label="YouTube">YT</a><a href="https://x.com/" target="_blank" rel="noopener" aria-label="X">X</a></div>
+      <div class="contact-note"><span class="pulse-dot"></span> NEW PROJECTS / OPEN TO COLLABORATE</div></aside>
+    <form class="glass-form contact-form reveal" id="contactForm">
+      <div class="form-heading"><span class="section-kicker">SEND A MESSAGE</span><h2>İletişim <em>formu</em></h2><p>Yıldızlı alanlar zorunludur.</p></div>
+      <label>Adın soyadın <span>*</span><input name="from_name" type="text" autocomplete="name" placeholder="Adını yaz" required maxlength="100"></label>
+      <label>E-posta adresin <span>*</span><input name="reply_to" type="email" autocomplete="email" placeholder="ornek@mail.com" required maxlength="150"></label>
+      <label>Konu<select name="topic"><option>Genel iletişim</option><option>Beat / lisans</option><option>Prodüksiyon</option><option>İş birliği</option><option>Diğer</option></select></label>
+      <label>Mesajın <span>*</span><textarea name="message" rows="5" placeholder="Aklındaki projeyi anlat..." required maxlength="3000"></textarea></label>
+      <button class="button button-primary form-submit" type="submit">Mesajı gönder <span>↗</span></button>
+      <p class="form-status" id="contactStatus" aria-live="polite">İletişim formu e-posta servisi bağlantısına hazır.</p>
+    </form>
+  </div>
+</main>
+<footer class="site-footer wrap"><a class="brand" href="index.html"><img src="assets/brand-mark.svg" alt=""><span class="brand-word">2MER <b>PRODUCTION</b></span></a><p>Sound with identity.</p><div class="footer-links"><a href="index.html">Ana Sayfa</a><a href="kayit.html">Kayıt Ol</a><a href="giris.html">Giriş Yap</a></div><small>© <span data-year></span> 2mer Production.</small></footer><div class="toast" role="status" aria-live="polite"></div>
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script><script src="script.js"></script>
+</body></html>
