@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://yavuzselimtalebeyurdu-gif.github.io/timberogullari/</loc></url>
-  <url><loc>https://yavuzselimtalebeyurdu-gif.github.io/timberogullari/devlet.html</loc></url>
-  <url><loc>https://yavuzselimtalebeyurdu-gif.github.io/timberogullari/tarihce.html</loc></url>
-  <url><loc>https://yavuzselimtalebeyurdu-gif.github.io/timberogullari/iletisim.html</loc></url>
+
+  <url>
+    <loc>https://yavuzselimtalebeyurdu-gif.github.io/2MER-PRODUCTION/</loc>
+  </url>
+
+  <url>
+    <loc>https://yavuzselimtalebeyurdu-gif.github.io/2MER-PRODUCTION/iletisim.html</loc>
+  </url>
+
+  <url>
+    <loc>https://yavuzselimtalebeyurdu-gif.github.io/2MER-PRODUCTION/kayit.html</loc>
+  </url>
+
+  <url>
+    <loc>https://yavuzselimtalebeyurdu-gif.github.io/2MER-PRODUCTION/giris.html</loc>
+  </url>
+
 </urlset>
