@@ -1,11 +1,22 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="2M Production amblemi">
-<defs>
-  <linearGradient id="mark" x1="18" y1="18" x2="110" y2="110" gradientUnits="userSpaceOnUse"><stop stop-color="#ff3b5f"/><stop offset=".52" stop-color="#e51d69"/><stop offset="1" stop-color="#9c4aff"/></linearGradient>
-  <linearGradient id="ring" x1="12" y1="10" x2="116" y2="118" gradientUnits="userSpaceOnUse"><stop stop-color="#ff4d68"/><stop offset="1" stop-color="#8c35d9"/></linearGradient>
-</defs>
-<rect x="4" y="4" width="120" height="120" rx="31" fill="#0d0912" stroke="url(#ring)" stroke-width="2"/>
-<path d="M23 23h82" stroke="url(#ring)" stroke-width="1" opacity=".35"/>
-<text x="64" y="78" text-anchor="middle" fill="url(#mark)" font-family="Arial, Helvetica, sans-serif" font-size="58" font-weight="900" letter-spacing="-5">2M</text>
-<path d="M27 90h74" stroke="url(#ring)" stroke-width="1.5" stroke-linecap="round" opacity=".85"/>
-<text x="64" y="106" text-anchor="middle" fill="#d9d1df" font-family="Arial, Helvetica, sans-serif" font-size="8.5" font-weight="700" letter-spacing="2.4">PRODUCTION</text>
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="128" height="128" viewBox="0 0 128 128" role="img" aria-labelledby="title desc">
+  <title id="title">2MER</title>
+  <desc id="desc">2MER PRODUCTION mark</desc>
+  <defs>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#ff304d"/>
+      <stop offset=".52" stop-color="#d92b87"/>
+      <stop offset="1" stop-color="#9b35ff"/>
+    </linearGradient>
+    <radialGradient id="glow" cx=".5" cy=".45" r=".7">
+      <stop offset="0" stop-color="#df246d" stop-opacity=".20"/>
+      <stop offset="1" stop-color="#130d19" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect x="4" y="4" width="120" height="120" rx="31" fill="#100a16" stroke="#ffffff" stroke-opacity=".14" stroke-width="1.5"/>
+  <rect x="5" y="5" width="118" height="118" rx="30" fill="url(#glow)"/>
+  <path d="M27 36h74" stroke="url(#accent)" stroke-width="2.5" stroke-linecap="round" opacity=".9"/>
+  <path d="M39 94h50" stroke="#ffffff" stroke-opacity=".28" stroke-width="1.5" stroke-linecap="round"/>
+  <text x="64" y="78" text-anchor="middle" fill="#f8f5fb" font-family="Space Grotesk, Arial, sans-serif" font-size="33" font-weight="700" letter-spacing="-1.8">2MER</text>
+  <circle cx="100" cy="27" r="3" fill="url(#accent)"/>
 </svg>

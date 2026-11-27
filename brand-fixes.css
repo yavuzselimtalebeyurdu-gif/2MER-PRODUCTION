@@ -1,0 +1,89 @@
+/* 2MER PRODUCTION — shared brand alignment refinements */
+.brand {
+  gap: 8px;
+}
+
+.brand img {
+  display: block;
+  object-fit: contain;
+  object-position: center;
+  transform: none;
+  flex: 0 0 auto;
+}
+
+.brand-word {
+  letter-spacing: .105em;
+  white-space: nowrap;
+  display: inline-flex;
+  align-items: baseline;
+  gap: 2px;
+}
+
+.brand-word b {
+  margin-left: 0 !important;
+  letter-spacing: .12em;
+}
+
+.site-footer .brand {
+  gap: 7px;
+}
+
+/* Keep the supporting slogan comfortably inside the text column. */
+.hero-copy {
+  min-width: 0;
+}
+
+.hero h1 {
+  font-size: clamp(48px, 5.7vw, 66px);
+  letter-spacing: -.078em;
+  overflow-wrap: normal;
+}
+
+.hero-brand-line {
+  display: block;
+  max-width: 100%;
+  margin: .05rem 0 1rem;
+  font-size: clamp(.60rem, .80vw, .72rem);
+  line-height: 1.45;
+  letter-spacing: .115em;
+  overflow-wrap: normal;
+  text-wrap: balance;
+}
+
+@media (max-width: 940px) {
+  .hero h1 {
+    font-size: clamp(54px, 7.4vw, 76px);
+  }
+  .hero-brand-line {
+    max-width: 100%;
+    font-size: clamp(.64rem, 1.15vw, .76rem);
+    letter-spacing: .12em;
+  }
+}
+
+@media (max-width: 700px) {
+  .brand {
+    gap: 7px;
+  }
+  .brand-word {
+    font-size: 12px;
+    letter-spacing: .08em;
+    gap: 1px;
+  }
+  .brand-word b {
+    font-size: 8px;
+    letter-spacing: .09em;
+  }
+  .hero h1 {
+    font-size: clamp(43px, 11vw, 58px);
+    letter-spacing: -.07em;
+  }
+  .hero-brand-line {
+    max-width: 100%;
+    margin: 0 0 .9rem;
+    font-size: clamp(.55rem, 2.55vw, .68rem);
+    line-height: 1.4;
+    letter-spacing: .075em;
+    text-wrap: pretty;
+  }
+}

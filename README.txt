@@ -1,20 +1,21 @@
-2MER PRODUCTION — SEO DOSYA PAKETİ
+2MER PRODUCTION — GÖRSEL DÜZELTME PAKETİ
 
-PAKETTEKİ DOSYALAR
-- index.html: Ana sayfada UR PRODUCER ana sloganı ve altında daha küçük OUR SOUND. OUR VISION. OUR CREATION. marka satırı; geniş ve iş birliğine dayalı marka anlatımı; SEO düzenlemeleri; gerçek Instagram bağlantısı; ses dosyaları henüz olmadığı için boş/çalışmayan MP3 oynatıcıları kaldırıldı.
-- iletisim.html: İletişim sayfası için özgün SEO başlık/açıklama, canonical, Open Graph ve ContactPage yapılandırılmış verisi; yalnızca gerçek Instagram bağlantısı.
-- kayit.html ve giris.html: Sosyal bağlantılar tek Instagram hesabına indirildi. Hesap sistemi henüz etkin olmadığı için bu iki sayfaya noindex,follow eklendi; ziyaretçiler sayfalara normal şekilde erişebilir.
-- sitemap.xml: Yalnızca indekslenmesi hedeflenen ana sayfa ve iletişim sayfasını içerir.
+İstenen düzenlemeler:
+- Ana sayfanın ana başlığı 2MER PRODUCTION olarak bırakıldı; UR PRODUCER kaldırıldı.
+- OUR SOUND. OUR VISION. OUR CREATION. başlığın altında daha küçük ve zarif bir destek satırı olarak korunuyor.
+- Hero başlığı ölçülendirildi; alt sloganın yan video alanına taşmaması için font ve genişlik ayarları yapıldı.
+- brand-mark.svg içindeki yazı 2MER olarak yeniden hazırlandı ve SVG metni tam ortaya hizalandı.
+- favicon.svg de 2MER kimliğine uyarlandı.
+- Dört HTML sayfasında logo alt metinleri ve markanın yazımı 2MER PRODUCTION ile tutarlılaştırıldı.
+- Header içindeki 2MER ve PRODUCTION arasındaki mesafe hafifçe azaltıldı.
+- brand-fixes.css bütün sayfalarda ortak görsel ayarları uygular.
+- Mevcut SEO etiketleri, sayfa içerikleri, formlar, Instagram bağlantısı ve sitemap korunmuştur.
 
-GITHUB PAGES'E YÜKLEME
-1. Depodaki mevcut dört HTML dosyasını ve sitemap.xml dosyasını yedekle.
-2. Bu paketteki index.html, iletisim.html, kayit.html ve giris.html dosyalarını deponun ana dizinindeki karşılıklarının üzerine yükle.
-3. sitemap.xml dosyasını da deponun ana dizinindeki mevcut sitemap.xml dosyasının üzerine yükle.
-4. Commit changes ile kaydet ve sitenin yayınlanmasını bekle.
-5. Siteyi açıp dört sayfayı ve Instagram bağlantılarını kontrol et.
-6. Search Console > Site Haritaları bölümünde sitemap.xml kaydını bir kez yeniden gönder.
+GITHUB'A YÜKLEME
+1. index.html, iletisim.html, kayit.html ve giris.html dosyalarını depodaki aynı adlı dosyalarla değiştirin.
+2. brand-mark.svg ve favicon.svg dosyalarını depodaki aynı adlı dosyalarla değiştirin.
+3. brand-fixes.css dosyasını depo kök dizinine ekleyin.
+4. Commit changes yapın.
+5. style.css ve script.js dosyalarını silmeyin veya değiştirmeyin.
 
-ÖNEMLİ
-- style.css, script.js, favicon.svg, brand-mark.svg ve ana sayfanın kullandığı görsel/video varlıklarını silmeyin; bu paket yalnızca HTML ve sitemap dosyalarını içerir.
-- Kayıt/giriş sistemi gerçekten çalışır hâle geldiğinde kayit.html ve giris.html dosyalarındaki noindex,follow etiketlerini kaldırıp sitemap'e bu sayfaları tekrar eklemek değerlendirilebilir.
-- Sitemap'in yeniden gönderilmesi Google'ın onu kesin kabul edeceği veya sayfaları hemen sıralayacağı anlamına gelmez.
+Not: Paket, mevcut style.css dosyasını değiştirmez. brand-fixes.css mevcut stylesheet sonrasında yüklenir.
