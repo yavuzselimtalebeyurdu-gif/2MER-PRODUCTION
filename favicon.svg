@@ -1,8 +1,11 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 128 128">
-  <defs><linearGradient id="a" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#ff304d"/><stop offset=".55" stop-color="#d92b87"/><stop offset="1" stop-color="#9b35ff"/></linearGradient></defs>
-  <rect x="4" y="4" width="120" height="120" rx="30" fill="#100a16" stroke="#ffffff" stroke-opacity=".15" stroke-width="2"/>
-  <path d="M27 36h74" stroke="url(#a)" stroke-width="3" stroke-linecap="round"/>
-  <text x="64" y="78" text-anchor="middle" fill="#f8f5fb" font-family="Arial,sans-serif" font-size="33" font-weight="700" letter-spacing="-1.8">2MER</text>
-  <path d="M39 94h50" stroke="#ffffff" stroke-opacity=".28" stroke-width="2" stroke-linecap="round"/>
-</svg>
+<head>
+  <meta charset="UTF-8">
+  <title>Site Başlığınız</title>
+
+  <!-- Standart Tarayıcılar İçin Favicon -->
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon.png">
+
+  <!-- Mobil Cihazlar (iPhone/iPad Ana Ekran) İçin Simge -->
+  <link rel="apple-touch-icon" sizes="180x180" href="favicon.png">
+</head>
