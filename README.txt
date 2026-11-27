@@ -1,7 +1,7 @@
 2MER PRODUCTION — SEO DOSYA PAKETİ
 
 PAKETTEKİ DOSYALAR
-- index.html: Ana sayfa SEO düzenlemeleri; gerçek Instagram bağlantısı; ses dosyaları henüz olmadığı için boş/çalışmayan MP3 oynatıcıları kaldırıldı.
+- index.html: Ana sayfada UR PRODUCER ana sloganı ve altında daha küçük OUR SOUND. OUR VISION. OUR CREATION. marka satırı; geniş ve iş birliğine dayalı marka anlatımı; SEO düzenlemeleri; gerçek Instagram bağlantısı; ses dosyaları henüz olmadığı için boş/çalışmayan MP3 oynatıcıları kaldırıldı.
 - iletisim.html: İletişim sayfası için özgün SEO başlık/açıklama, canonical, Open Graph ve ContactPage yapılandırılmış verisi; yalnızca gerçek Instagram bağlantısı.
 - kayit.html ve giris.html: Sosyal bağlantılar tek Instagram hesabına indirildi. Hesap sistemi henüz etkin olmadığı için bu iki sayfaya noindex,follow eklendi; ziyaretçiler sayfalara normal şekilde erişebilir.
 - sitemap.xml: Yalnızca indekslenmesi hedeflenen ana sayfa ve iletişim sayfasını içerir.
